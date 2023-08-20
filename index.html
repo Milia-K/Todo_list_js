@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="normalize.css" />
+    <title>List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <h1>Планировщик задач</h1>
+            <h3>Добавьте задачу</h3>
+            <input type="text" id="input" placeholder="Введите задачу">
+            <button id="btn">add &#10010;</button>
+            <div><h3>Список задач</h3></div>
+            <div id="result">
+
+                <ol class="li" id="list_task"></ol>
+            </div>
+            <p id="no-tasks"></p>
+            <div><button id="btn_delete">Очистить весь список</button></div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
